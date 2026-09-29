@@ -252,6 +252,8 @@ results/reference/           raw benchmark JSON behind the tables above
   [GLM-5.3-Flash-EXL3-2x-DGX-Sparks](https://github.com/MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks)
   routed-expert work.
 - **Engine:** [vLLM](https://github.com/vllm-project/vllm).
+- **Thank you to [vcruz305](https://github.com/vcruz305)** — for the EXL3 fractional-K kernels, the
+  vLLM EXL3 plugin, and the insight and parts of this recipe that came from his work.
 
 ## License
 
