@@ -1,0 +1,197 @@
+{
+ "tag": "spec6-adaptive-graphs",
+ "time": "2026-09-28 20:51:33",
+ "base": "http://<head-ip>:8000",
+ "model": "naive-n0.5-flash",
+ "max_model_len": 2048,
+ "max_tokens": 384,
+ "nll": {
+  "tokens": 1516,
+  "mean_nll": 0.06317,
+  "ppl": 1.0652,
+  "s": 3.05
+ },
+ "decode": {
+  "cases": [
+   {
+    "prompt_tokens": 81,
+    "completion_tokens": 384,
+    "ttft_s": 0.637,
+    "total_s": 18.779,
+    "decode_tok_s": 21.11,
+    "sha": "457f84dc19ab7670",
+    "text_head": "\n\nWe need to write a Python function that parses an ISO-8601 duration string lik",
+    "spec": {
+     "steps": 145,
+     "mean_accept_len": 2.641,
+     "draft_accept_rate": 0.274,
+     "per_pos": [
+      0.621,
+      0.379,
+      0.262,
+      0.193,
+      0.124,
+      0.062
+     ]
+    },
+    "name": "code"
+   },
+   {
+    "prompt_tokens": 72,
+    "completion_tokens": 325,
+    "ttft_s": 0.505,
+    "total_s": 18.512,
+    "decode_tok_s": 17.99,
+    "sha": "0d7884584dae1583",
+    "text_head": "\n\nThe storm arrived without warning, a wall of black water and screaming wind th",
+    "spec": {
+     "steps": 186,
+     "mean_accept_len": 1.747,
+     "draft_accept_rate": 0.125,
+     "per_pos": [
+      0.5,
+      0.177,
+      0.059,
+      0.011,
+      0.0,
+      0.0
+     ]
+    },
+    "name": "prose"
+   },
+   {
+    "prompt_tokens": 70,
+    "completion_tokens": 384,
+    "ttft_s": 0.476,
+    "total_s": 19.348,
+    "decode_tok_s": 20.29,
+    "sha": "b540ba3e5b7982c8",
+    "text_head": "\nThe user wants an explanation of how B-trees differ from binary search trees (B",
+    "spec": {
+     "steps": 169,
+     "mean_accept_len": 2.266,
+     "draft_accept_rate": 0.211,
+     "per_pos": [
+      0.609,
+      0.32,
+      0.189,
+      0.083,
+      0.047,
+      0.018
+     ]
+    },
+    "name": "explain"
+   },
+   {
+    "prompt_tokens": 100,
+    "completion_tokens": 384,
+    "ttft_s": 0.564,
+    "total_s": 12.696,
+    "decode_tok_s": 31.57,
+    "sha": "682bd9e7f4ac296e",
+    "text_head": "\n\nLet me work through this step by step.\n\n**Setting up the problem:**\n\n- Train 1",
+    "spec": {
+     "steps": 102,
+     "mean_accept_len": 3.775,
+     "draft_accept_rate": 0.462,
+     "per_pos": [
+      0.755,
+      0.667,
+      0.529,
+      0.382,
+      0.245,
+      0.196
+     ]
+    },
+    "name": "math"
+   },
+   {
+    "prompt_tokens": 67,
+    "completion_tokens": 384,
+    "ttft_s": 0.491,
+    "total_s": 15.272,
+    "decode_tok_s": 25.91,
+    "sha": "325b9e074a2ac20d",
+    "text_head": "\n\nHere is a comprehensive packing checklist for a 5-day winter hiking trip, grou",
+    "spec": {
+     "steps": 129,
+     "mean_accept_len": 2.984,
+     "draft_accept_rate": 0.331,
+     "per_pos": [
+      0.589,
+      0.465,
+      0.372,
+      0.248,
+      0.194,
+      0.116
+     ]
+    },
+    "name": "list"
+   },
+   {
+    "prompt_tokens": 99,
+    "completion_tokens": 46,
+    "ttft_s": 0.586,
+    "total_s": 2.953,
+    "decode_tok_s": 19.01,
+    "sha": "088ed24a2f5dfea1",
+    "text_head": "\n\nThe server experienced nightly crashes of unknown origin. Investigation reveal",
+    "spec": {
+     "steps": 20,
+     "mean_accept_len": 2.35,
+     "draft_accept_rate": 0.225,
+     "per_pos": [
+      0.6,
+      0.35,
+      0.2,
+      0.15,
+      0.05,
+      0.0
+     ]
+    },
+    "name": "rewrite"
+   }
+  ],
+  "aggregate": {
+   "tok_s_weighted": 22.55,
+   "tok_s_median": 20.7
+  }
+ },
+ "prefill": {
+  "cases": [
+   {
+    "prompt_tokens": 555,
+    "completion_tokens": 1,
+    "ttft_s": 1.116,
+    "total_s": 1.116,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 512,
+    "prefill_tok_s": 497.3
+   },
+   {
+    "prompt_tokens": 1061,
+    "completion_tokens": 1,
+    "ttft_s": 1.385,
+    "total_s": 1.385,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 1024,
+    "prefill_tok_s": 766.1
+   },
+   {
+    "prompt_tokens": 2001,
+    "completion_tokens": 1,
+    "ttft_s": 2.125,
+    "total_s": 2.125,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 1900,
+    "prefill_tok_s": 941.6
+   }
+  ]
+ }
+}

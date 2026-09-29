@@ -1,0 +1,191 @@
+{
+ "tag": "baseline-spec6-eager",
+ "time": "2026-09-28 19:35:36",
+ "base": "http://<head-ip>:8000",
+ "model": "naive-n0.5-flash",
+ "max_model_len": 2048,
+ "max_tokens": 384,
+ "decode": {
+  "cases": [
+   {
+    "prompt_tokens": 81,
+    "completion_tokens": 384,
+    "ttft_s": 0.504,
+    "total_s": 17.75,
+    "decode_tok_s": 22.21,
+    "sha": "fad40fbe798a8211",
+    "text_head": "\n\nWe need to write a Python function that parses an ISO-8601 duration string lik",
+    "spec": {
+     "steps": 136,
+     "mean_accept_len": 2.816,
+     "draft_accept_rate": 0.303,
+     "per_pos": [
+      0.676,
+      0.426,
+      0.279,
+      0.221,
+      0.14,
+      0.074
+     ]
+    },
+    "name": "code"
+   },
+   {
+    "prompt_tokens": 72,
+    "completion_tokens": 269,
+    "ttft_s": 0.484,
+    "total_s": 17.933,
+    "decode_tok_s": 15.36,
+    "sha": "6a4e830a830d19ba",
+    "text_head": "\n\nThe storm howled like a wounded animal, rain lashing against the lighthouse wi",
+    "spec": {
+     "steps": 148,
+     "mean_accept_len": 1.818,
+     "draft_accept_rate": 0.136,
+     "per_pos": [
+      0.554,
+      0.182,
+      0.061,
+      0.014,
+      0.007,
+      0.0
+     ]
+    },
+    "name": "prose"
+   },
+   {
+    "prompt_tokens": 70,
+    "completion_tokens": 280,
+    "ttft_s": 0.548,
+    "total_s": 18.921,
+    "decode_tok_s": 15.19,
+    "sha": "cbb96bfce4be74fb",
+    "text_head": "\n\nA binary search tree (BST) organizes data in a tree where each node has at mos",
+    "spec": {
+     "steps": 142,
+     "mean_accept_len": 1.972,
+     "draft_accept_rate": 0.162,
+     "per_pos": [
+      0.613,
+      0.268,
+      0.085,
+      0.007,
+      0.0,
+      0.0
+     ]
+    },
+    "name": "explain"
+   },
+   {
+    "prompt_tokens": 100,
+    "completion_tokens": 380,
+    "ttft_s": 0.679,
+    "total_s": 12.892,
+    "decode_tok_s": 31.03,
+    "sha": "7a478b6b99c06068",
+    "text_head": "\n\nLet me solve this step by step.\n\n**Setting up the problem:**\n\n- Train 1 leaves",
+    "spec": {
+     "steps": 98,
+     "mean_accept_len": 3.867,
+     "draft_accept_rate": 0.478,
+     "per_pos": [
+      0.806,
+      0.663,
+      0.5,
+      0.398,
+      0.276,
+      0.224
+     ]
+    },
+    "name": "math"
+   },
+   {
+    "prompt_tokens": 67,
+    "completion_tokens": 384,
+    "ttft_s": 0.473,
+    "total_s": 18.361,
+    "decode_tok_s": 21.41,
+    "sha": "12dd7d77a1549a38",
+    "text_head": "\n\nHere is a packing checklist for a 5-day winter hiking trip, grouped by categor",
+    "spec": {
+     "steps": 145,
+     "mean_accept_len": 2.648,
+     "draft_accept_rate": 0.275,
+     "per_pos": [
+      0.614,
+      0.372,
+      0.276,
+      0.214,
+      0.124,
+      0.048
+     ]
+    },
+    "name": "list"
+   },
+   {
+    "prompt_tokens": 99,
+    "completion_tokens": 44,
+    "ttft_s": 0.588,
+    "total_s": 3.39,
+    "decode_tok_s": 15.35,
+    "sha": "cf978f73f6fa7314",
+    "text_head": "\n\nThe server experienced nightly crashes of unknown origin. Investigation reveal",
+    "spec": {
+     "steps": 21,
+     "mean_accept_len": 2.143,
+     "draft_accept_rate": 0.19,
+     "per_pos": [
+      0.476,
+      0.333,
+      0.19,
+      0.095,
+      0.048,
+      0.0
+     ]
+    },
+    "name": "rewrite"
+   }
+  ],
+  "aggregate": {
+   "tok_s_weighted": 20.18,
+   "tok_s_median": 18.384999999999998
+  }
+ },
+ "prefill": {
+  "cases": [
+   {
+    "prompt_tokens": 555,
+    "completion_tokens": 1,
+    "ttft_s": 1.281,
+    "total_s": 1.281,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 512,
+    "prefill_tok_s": 433.3
+   },
+   {
+    "prompt_tokens": 1061,
+    "completion_tokens": 1,
+    "ttft_s": 1.459,
+    "total_s": 1.459,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 1024,
+    "prefill_tok_s": 727.2
+   },
+   {
+    "prompt_tokens": 2001,
+    "completion_tokens": 1,
+    "ttft_s": 2.1,
+    "total_s": 2.1,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 1900,
+    "prefill_tok_s": 952.9
+   }
+  ]
+ }
+}

@@ -1,0 +1,6 @@
+config/cluster.env
+__pycache__/
+*.egg-info/
+build/
+results/*.json
+!results/reference/*.json

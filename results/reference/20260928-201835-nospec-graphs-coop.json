@@ -1,0 +1,125 @@
+{
+ "tag": "nospec-graphs-coop",
+ "time": "2026-09-28 20:17:01",
+ "base": "http://<head-ip>:8000",
+ "model": "naive-n0.5-flash",
+ "max_model_len": 2048,
+ "max_tokens": 384,
+ "nll": {
+  "tokens": 1516,
+  "mean_nll": 0.06399,
+  "ppl": 1.0661,
+  "s": 3.07
+ },
+ "decode": {
+  "cases": [
+   {
+    "prompt_tokens": 81,
+    "completion_tokens": 384,
+    "ttft_s": 0.549,
+    "total_s": 17.741,
+    "decode_tok_s": 22.28,
+    "sha": "afe4b3ba7fe89074",
+    "text_head": "\n\nWe need to write a Python function that parses an ISO-8601 duration string lik",
+    "spec": null,
+    "name": "code"
+   },
+   {
+    "prompt_tokens": 72,
+    "completion_tokens": 381,
+    "ttft_s": 0.345,
+    "total_s": 16.63,
+    "decode_tok_s": 23.33,
+    "sha": "a837d8c3c8bfce8e",
+    "text_head": "\n\nThe storm howled like a wounded animal, rain lashing against the lighthouse wi",
+    "spec": null,
+    "name": "prose"
+   },
+   {
+    "prompt_tokens": 70,
+    "completion_tokens": 325,
+    "ttft_s": 0.371,
+    "total_s": 14.147,
+    "decode_tok_s": 23.52,
+    "sha": "b49a8779574bfc1c",
+    "text_head": "\n\nA binary search tree (BST) organizes data in a tree where each node has at mos",
+    "spec": null,
+    "name": "explain"
+   },
+   {
+    "prompt_tokens": 100,
+    "completion_tokens": 384,
+    "ttft_s": 0.43,
+    "total_s": 18.575,
+    "decode_tok_s": 21.11,
+    "sha": "5e89ac619c303065",
+    "text_head": "\n\nLet me work through this step by step.\n\n**Setting up the problem:**\n\n- Train 1",
+    "spec": null,
+    "name": "math"
+   },
+   {
+    "prompt_tokens": 67,
+    "completion_tokens": 384,
+    "ttft_s": 0.331,
+    "total_s": 17.034,
+    "decode_tok_s": 22.93,
+    "sha": "b2e3b1784846a5ee",
+    "text_head": "<think>\nHere's a packing checklist for a 5-day winter hiking trip, grouped by ca",
+    "spec": null,
+    "name": "list"
+   },
+   {
+    "prompt_tokens": 99,
+    "completion_tokens": 35,
+    "ttft_s": 0.423,
+    "total_s": 1.883,
+    "decode_tok_s": 23.28,
+    "sha": "b27fc6e9a299c2af",
+    "text_head": "\n\nThe server nightly failures were caused by the backup job exhaustively consumi",
+    "spec": null,
+    "name": "rewrite"
+   }
+  ],
+  "aggregate": {
+   "tok_s_weighted": 22.58,
+   "tok_s_median": 23.105
+  }
+ },
+ "prefill": {
+  "cases": [
+   {
+    "prompt_tokens": 555,
+    "completion_tokens": 1,
+    "ttft_s": 1.055,
+    "total_s": 1.055,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 512,
+    "prefill_tok_s": 526.1
+   },
+   {
+    "prompt_tokens": 1061,
+    "completion_tokens": 1,
+    "ttft_s": 1.488,
+    "total_s": 1.488,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 1024,
+    "prefill_tok_s": 713.0
+   },
+   {
+    "prompt_tokens": 2001,
+    "completion_tokens": 1,
+    "ttft_s": 2.155,
+    "total_s": 2.155,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 1900,
+    "prefill_tok_s": 928.5
+   }
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vllm-naive-n05"
+version = "0.0.1"
+description = "Out-of-tree vLLM model plugin for Naive-N0.5-Flash"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.entry-points."vllm.general_plugins"]
+naive_n05 = "vllm_naive_n05:register"
+
+[tool.setuptools.packages.find]
+include = ["vllm_naive_n05*"]

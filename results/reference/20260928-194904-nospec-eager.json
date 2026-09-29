@@ -1,0 +1,119 @@
+{
+ "tag": "nospec-eager",
+ "time": "2026-09-28 19:47:33",
+ "base": "http://<head-ip>:8000",
+ "model": "naive-n0.5-flash",
+ "max_model_len": 2048,
+ "max_tokens": 384,
+ "decode": {
+  "cases": [
+   {
+    "prompt_tokens": 81,
+    "completion_tokens": 384,
+    "ttft_s": 0.512,
+    "total_s": 18.163,
+    "decode_tok_s": 21.7,
+    "sha": "cb46f3710a99130e",
+    "text_head": "\n\nWe need to write a Python function that parses an ISO-8601 duration string lik",
+    "spec": null,
+    "name": "code"
+   },
+   {
+    "prompt_tokens": 72,
+    "completion_tokens": 272,
+    "ttft_s": 0.349,
+    "total_s": 13.108,
+    "decode_tok_s": 21.24,
+    "sha": "146dae46b1190931",
+    "text_head": "\n\nThe storm howled like a wounded animal, rain lashing against the lighthouse wi",
+    "spec": null,
+    "name": "prose"
+   },
+   {
+    "prompt_tokens": 70,
+    "completion_tokens": 384,
+    "ttft_s": 0.37,
+    "total_s": 18.447,
+    "decode_tok_s": 21.19,
+    "sha": "d55ecbdacb7b4b5a",
+    "text_head": "\nThe user wants an explanation of how B-trees differ from binary search trees (B",
+    "spec": null,
+    "name": "explain"
+   },
+   {
+    "prompt_tokens": 100,
+    "completion_tokens": 344,
+    "ttft_s": 0.401,
+    "total_s": 16.245,
+    "decode_tok_s": 21.65,
+    "sha": "07df92b80b8f39cf",
+    "text_head": "\n\nLet me work through this step by step.\n\n**Setting up the problem:**\n\n- Train 1",
+    "spec": null,
+    "name": "math"
+   },
+   {
+    "prompt_tokens": 67,
+    "completion_tokens": 384,
+    "ttft_s": 0.351,
+    "total_s": 18.107,
+    "decode_tok_s": 21.57,
+    "sha": "63ecd96e866912a6",
+    "text_head": "\n\nHere is a packing checklist for a 5-day winter hiking trip, grouped by categor",
+    "spec": null,
+    "name": "list"
+   },
+   {
+    "prompt_tokens": 99,
+    "completion_tokens": 33,
+    "ttft_s": 0.426,
+    "total_s": 1.93,
+    "decode_tok_s": 21.27,
+    "sha": "ad191e05f36d6f2f",
+    "text_head": "\n\nThe server experienced nightly crashes due to an memory-intensive backup job. ",
+    "spec": null,
+    "name": "rewrite"
+   }
+  ],
+  "aggregate": {
+   "tok_s_weighted": 21.47,
+   "tok_s_median": 21.42
+  }
+ },
+ "prefill": {
+  "cases": [
+   {
+    "prompt_tokens": 555,
+    "completion_tokens": 1,
+    "ttft_s": 1.036,
+    "total_s": 1.036,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 512,
+    "prefill_tok_s": 535.7
+   },
+   {
+    "prompt_tokens": 1061,
+    "completion_tokens": 1,
+    "ttft_s": 1.385,
+    "total_s": 1.385,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 1024,
+    "prefill_tok_s": 766.1
+   },
+   {
+    "prompt_tokens": 2001,
+    "completion_tokens": 1,
+    "ttft_s": 2.177,
+    "total_s": 2.177,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 1900,
+    "prefill_tok_s": 919.2
+   }
+  ]
+ }
+}

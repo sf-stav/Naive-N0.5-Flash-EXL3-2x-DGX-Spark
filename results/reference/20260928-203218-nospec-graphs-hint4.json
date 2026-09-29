@@ -1,0 +1,125 @@
+{
+ "tag": "nospec-graphs-hint4",
+ "time": "2026-09-28 20:30:43",
+ "base": "http://<head-ip>:8000",
+ "model": "naive-n0.5-flash",
+ "max_model_len": 2048,
+ "max_tokens": 384,
+ "nll": {
+  "tokens": 1516,
+  "mean_nll": 0.06468,
+  "ppl": 1.0668,
+  "s": 4.56
+ },
+ "decode": {
+  "cases": [
+   {
+    "prompt_tokens": 81,
+    "completion_tokens": 384,
+    "ttft_s": 0.492,
+    "total_s": 18.51,
+    "decode_tok_s": 21.26,
+    "sha": "a9210ffc0980d89f",
+    "text_head": "\n\nWe need to write a Python function that parses an ISO-8601 duration string lik",
+    "spec": null,
+    "name": "code"
+   },
+   {
+    "prompt_tokens": 72,
+    "completion_tokens": 326,
+    "ttft_s": 0.353,
+    "total_s": 16.077,
+    "decode_tok_s": 20.67,
+    "sha": "0a81326ae86edb97",
+    "text_head": "\n\nThe storm howled like a wounded animal, rain lashing against the lighthouse wi",
+    "spec": null,
+    "name": "prose"
+   },
+   {
+    "prompt_tokens": 70,
+    "completion_tokens": 310,
+    "ttft_s": 0.384,
+    "total_s": 14.159,
+    "decode_tok_s": 22.43,
+    "sha": "5a90471aa24acc21",
+    "text_head": "\n\nA binary search tree (BST) organizes data in a tree where each node has at mos",
+    "spec": null,
+    "name": "explain"
+   },
+   {
+    "prompt_tokens": 100,
+    "completion_tokens": 384,
+    "ttft_s": 0.434,
+    "total_s": 17.717,
+    "decode_tok_s": 22.16,
+    "sha": "669b749f55464924",
+    "text_head": "\n\nLet me work through this problem carefully.\n\n**Setting up the problem:**\n\n- Tr",
+    "spec": null,
+    "name": "math"
+   },
+   {
+    "prompt_tokens": 67,
+    "completion_tokens": 384,
+    "ttft_s": 0.346,
+    "total_s": 17.449,
+    "decode_tok_s": 22.39,
+    "sha": "e216e492bfde547d",
+    "text_head": "\n\nHere is a comprehensive packing checklist for a 5-day winter hiking trip, grou",
+    "spec": null,
+    "name": "list"
+   },
+   {
+    "prompt_tokens": 99,
+    "completion_tokens": 40,
+    "ttft_s": 0.45,
+    "total_s": 2.301,
+    "decode_tok_s": 21.07,
+    "sha": "aa3cb4fc364fd675",
+    "text_head": "\n\nThe server experienced nightly crashes due to an memory exhaustion caused by t",
+    "spec": null,
+    "name": "rewrite"
+   }
+  ],
+  "aggregate": {
+   "tok_s_weighted": 21.75,
+   "tok_s_median": 21.71
+  }
+ },
+ "prefill": {
+  "cases": [
+   {
+    "prompt_tokens": 555,
+    "completion_tokens": 1,
+    "ttft_s": 1.008,
+    "total_s": 1.008,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 512,
+    "prefill_tok_s": 550.6
+   },
+   {
+    "prompt_tokens": 1061,
+    "completion_tokens": 1,
+    "ttft_s": 1.324,
+    "total_s": 1.324,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 1024,
+    "prefill_tok_s": 801.4
+   },
+   {
+    "prompt_tokens": 2001,
+    "completion_tokens": 1,
+    "ttft_s": 2.073,
+    "total_s": 2.073,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 1900,
+    "prefill_tok_s": 965.3
+   }
+  ]
+ }
+}

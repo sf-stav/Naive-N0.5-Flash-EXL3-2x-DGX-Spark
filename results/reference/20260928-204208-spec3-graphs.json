@@ -1,0 +1,179 @@
+{
+ "tag": "spec3-graphs",
+ "time": "2026-09-28 20:40:49",
+ "base": "http://<head-ip>:8000",
+ "model": "naive-n0.5-flash",
+ "max_model_len": 2048,
+ "max_tokens": 384,
+ "nll": {
+  "tokens": 1516,
+  "mean_nll": 0.06355,
+  "ppl": 1.0656,
+  "s": 2.8
+ },
+ "decode": {
+  "cases": [
+   {
+    "prompt_tokens": 81,
+    "completion_tokens": 384,
+    "ttft_s": 0.504,
+    "total_s": 13.74,
+    "decode_tok_s": 28.94,
+    "sha": "98fc5cb7e487d017",
+    "text_head": "\n\nWe need to write a Python function that parses an ISO-8601 duration string lik",
+    "spec": {
+     "steps": 146,
+     "mean_accept_len": 2.63,
+     "draft_accept_rate": 0.543,
+     "per_pos": [
+      0.733,
+      0.521,
+      0.377
+     ]
+    },
+    "name": "code"
+   },
+   {
+    "prompt_tokens": 72,
+    "completion_tokens": 351,
+    "ttft_s": 0.478,
+    "total_s": 18.474,
+    "decode_tok_s": 19.45,
+    "sha": "bfeb820b3db91165",
+    "text_head": "\n\nThe storm howled like a wounded animal, rain lashing against the lighthouse wi",
+    "spec": {
+     "steps": 211,
+     "mean_accept_len": 1.664,
+     "draft_accept_rate": 0.221,
+     "per_pos": [
+      0.464,
+      0.147,
+      0.052
+     ]
+    },
+    "name": "prose"
+   },
+   {
+    "prompt_tokens": 70,
+    "completion_tokens": 286,
+    "ttft_s": 0.483,
+    "total_s": 14.633,
+    "decode_tok_s": 20.14,
+    "sha": "fe69b6a94629e131",
+    "text_head": "\n\nA binary search tree (BST) organizes data in a tree where each node has at mos",
+    "spec": {
+     "steps": 153,
+     "mean_accept_len": 1.869,
+     "draft_accept_rate": 0.29,
+     "per_pos": [
+      0.582,
+      0.229,
+      0.059
+     ]
+    },
+    "name": "explain"
+   },
+   {
+    "prompt_tokens": 100,
+    "completion_tokens": 230,
+    "ttft_s": 0.526,
+    "total_s": 7.156,
+    "decode_tok_s": 34.54,
+    "sha": "8397cdebe1c035e3",
+    "text_head": "\n\nTrain 1 leaves at 09:40 at 84 km/h.\nTrain 2 leaves at 10:10 at 105 km/h.\n\nTrai",
+    "spec": {
+     "steps": 74,
+     "mean_accept_len": 3.108,
+     "draft_accept_rate": 0.703,
+     "per_pos": [
+      0.838,
+      0.676,
+      0.595
+     ]
+    },
+    "name": "math"
+   },
+   {
+    "prompt_tokens": 67,
+    "completion_tokens": 384,
+    "ttft_s": 0.478,
+    "total_s": 15.109,
+    "decode_tok_s": 26.18,
+    "sha": "b498c07d1bd34d56",
+    "text_head": "\n\nHere is a comprehensive packing checklist for a 5-day winter hiking trip, grou",
+    "spec": {
+     "steps": 162,
+     "mean_accept_len": 2.364,
+     "draft_accept_rate": 0.455,
+     "per_pos": [
+      0.673,
+      0.426,
+      0.265
+     ]
+    },
+    "name": "list"
+   },
+   {
+    "prompt_tokens": 99,
+    "completion_tokens": 35,
+    "ttft_s": 0.541,
+    "total_s": 2.164,
+    "decode_tok_s": 20.95,
+    "sha": "b27fc6e9a299c2af",
+    "text_head": "\n\nThe server nightly failures were caused by the backup job exhaustively consumi",
+    "spec": {
+     "steps": 17,
+     "mean_accept_len": 2.059,
+     "draft_accept_rate": 0.353,
+     "per_pos": [
+      0.471,
+      0.412,
+      0.176
+     ]
+    },
+    "name": "rewrite"
+   }
+  ],
+  "aggregate": {
+   "tok_s_weighted": 24.37,
+   "tok_s_median": 23.564999999999998
+  }
+ },
+ "prefill": {
+  "cases": [
+   {
+    "prompt_tokens": 555,
+    "completion_tokens": 1,
+    "ttft_s": 1.092,
+    "total_s": 1.092,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 512,
+    "prefill_tok_s": 508.2
+   },
+   {
+    "prompt_tokens": 1061,
+    "completion_tokens": 1,
+    "ttft_s": 1.38,
+    "total_s": 1.38,
+    "decode_tok_s": null,
+    "sha": "954e97c7b177c11d",
+    "text_head": " Do",
+    "target": 1024,
+    "prefill_tok_s": 768.8
+   },
+   {
+    "prompt_tokens": 2001,
+    "completion_tokens": 1,
+    "ttft_s": 2.148,
+    "total_s": 2.148,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 1900,
+    "prefill_tok_s": 931.6
+   }
+  ]
+ }
+}

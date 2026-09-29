@@ -1,0 +1,243 @@
+{
+ "tag": "recipe-k3-final",
+ "time": "2026-09-29 00:05:28",
+ "base": "http://<head-ip>:8000",
+ "model": "naive-n0.5-flash",
+ "max_model_len": 131072,
+ "max_tokens": 384,
+ "nll": {
+  "tokens": 977,
+  "mean_nll": 2.02546,
+  "ppl": 7.5796,
+  "s": 2.87
+ },
+ "decode": {
+  "cases": [
+   {
+    "prompt_tokens": 82,
+    "completion_tokens": 384,
+    "ttft_s": 0.516,
+    "total_s": 14.915,
+    "decode_tok_s": 26.6,
+    "sha": "9a097da77fdb6814",
+    "text_head": "We need to write a Python function that parses an ISO-8601 duration string like ",
+    "spec": {
+     "steps": 151,
+     "mean_accept_len": 2.536,
+     "draft_accept_rate": 0.512,
+     "per_pos": [
+      0.695,
+      0.47,
+      0.371
+     ]
+    },
+    "name": "code"
+   },
+   {
+    "prompt_tokens": 73,
+    "completion_tokens": 354,
+    "ttft_s": 0.513,
+    "total_s": 19.985,
+    "decode_tok_s": 18.13,
+    "sha": "2ca903fb0aaa89d2",
+    "text_head": "The storm howled like a wounded animal, rain lashing against the lighthouse wind",
+    "spec": {
+     "steps": 217,
+     "mean_accept_len": 1.631,
+     "draft_accept_rate": 0.21,
+     "per_pos": [
+      0.461,
+      0.134,
+      0.037
+     ]
+    },
+    "name": "prose"
+   },
+   {
+    "prompt_tokens": 71,
+    "completion_tokens": 295,
+    "ttft_s": 0.467,
+    "total_s": 15.063,
+    "decode_tok_s": 20.14,
+    "sha": "b734c4a3925aa55b",
+    "text_head": "A binary search tree (BST) organizes data in a tree where each node has at most ",
+    "spec": {
+     "steps": 152,
+     "mean_accept_len": 1.941,
+     "draft_accept_rate": 0.314,
+     "per_pos": [
+      0.586,
+      0.263,
+      0.092
+     ]
+    },
+    "name": "explain"
+   },
+   {
+    "prompt_tokens": 101,
+    "completion_tokens": 314,
+    "ttft_s": 0.538,
+    "total_s": 10.692,
+    "decode_tok_s": 30.82,
+    "sha": "fc2c594a46ba4bcc",
+    "text_head": "Let me solve this step by step.\n\n**Setting up the problem:**\n\n- Train 1 leaves a",
+    "spec": {
+     "steps": 106,
+     "mean_accept_len": 2.962,
+     "draft_accept_rate": 0.654,
+     "per_pos": [
+      0.811,
+      0.642,
+      0.509
+     ]
+    },
+    "name": "math"
+   },
+   {
+    "prompt_tokens": 68,
+    "completion_tokens": 384,
+    "ttft_s": 0.453,
+    "total_s": 15.73,
+    "decode_tok_s": 25.07,
+    "sha": "e9c0dd6bc18dcff9",
+    "text_head": "Here is a comprehensive packing checklist for a 5-day winter hiking trip, groupe",
+    "spec": {
+     "steps": 167,
+     "mean_accept_len": 2.305,
+     "draft_accept_rate": 0.435,
+     "per_pos": [
+      0.599,
+      0.449,
+      0.257
+     ]
+    },
+    "name": "list"
+   },
+   {
+    "prompt_tokens": 100,
+    "completion_tokens": 45,
+    "ttft_s": 0.655,
+    "total_s": 2.875,
+    "decode_tok_s": 19.83,
+    "sha": "7d261dafbad4c5c7",
+    "text_head": "The server experienced nightly crashes of unknown origin. Investigation revealed",
+    "spec": {
+     "steps": 24,
+     "mean_accept_len": 1.875,
+     "draft_accept_rate": 0.292,
+     "per_pos": [
+      0.5,
+      0.208,
+      0.167
+     ]
+    },
+    "name": "rewrite"
+   }
+  ],
+  "aggregate": {
+   "tok_s_weighted": 23.25,
+   "tok_s_median": 22.605
+  }
+ },
+ "prefill": {
+  "cases": [
+   {
+    "prompt_tokens": 613,
+    "completion_tokens": 1,
+    "ttft_s": 1.115,
+    "total_s": 1.115,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 555,
+    "prefill_tok_s": 549.8
+   },
+   {
+    "prompt_tokens": 2088,
+    "completion_tokens": 1,
+    "ttft_s": 2.711,
+    "total_s": 2.711,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 2001,
+    "prefill_tok_s": 770.2
+   },
+   {
+    "prompt_tokens": 8364,
+    "completion_tokens": 1,
+    "ttft_s": 9.561,
+    "total_s": 9.561,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 8192,
+    "prefill_tok_s": 874.8
+   },
+   {
+    "prompt_tokens": 33344,
+    "completion_tokens": 1,
+    "ttft_s": 41.807,
+    "total_s": 41.807,
+    "decode_tok_s": null,
+    "sha": "e3b0c44298fc1c14",
+    "text_head": "",
+    "target": 32768,
+    "prefill_tok_s": 797.6
+   }
+  ]
+ },
+ "needle": {
+  "cases": [
+   {
+    "target": 16384,
+    "depth": 0.1,
+    "prompt_tokens": 14176,
+    "ttft_s": 20.913,
+    "ok": true,
+    "answer": "amber-falcon-376992"
+   },
+   {
+    "target": 16384,
+    "depth": 0.5,
+    "prompt_tokens": 14176,
+    "ttft_s": 19.19,
+    "ok": true,
+    "answer": "amber-falcon-270330"
+   },
+   {
+    "target": 16384,
+    "depth": 0.9,
+    "prompt_tokens": 14174,
+    "ttft_s": 11.084,
+    "ok": true,
+    "answer": "amber-falcon-209192"
+   },
+   {
+    "target": 60000,
+    "depth": 0.1,
+    "prompt_tokens": 51570,
+    "ttft_s": 76.544,
+    "ok": true,
+    "answer": "amber-falcon-360700"
+   },
+   {
+    "target": 60000,
+    "depth": 0.5,
+    "prompt_tokens": 51570,
+    "ttft_s": 65.883,
+    "ok": true,
+    "answer": "amber-falcon-230990"
+   },
+   {
+    "target": 60000,
+    "depth": 0.9,
+    "prompt_tokens": 51569,
+    "ttft_s": 45.827,
+    "ok": true,
+    "answer": "amber-falcon-933314"
+   }
+  ],
+  "recall": 1.0
+ }
+}
