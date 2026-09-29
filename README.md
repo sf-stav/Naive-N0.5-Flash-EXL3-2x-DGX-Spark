@@ -252,9 +252,6 @@ results/reference/           raw benchmark JSON behind the tables above
   [GLM-5.3-Flash-EXL3-2x-DGX-Sparks](https://github.com/MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks)
   routed-expert work.
 - **Engine:** [vLLM](https://github.com/vllm-project/vllm).
-- **Recipe format:** modelled on
-  [vcruz305/DeepSeek-V4.1-Flash-EXL3-DGX-Spark-recipe](https://github.com/vcruz305/DeepSeek-V4.1-Flash-EXL3-DGX-Spark-recipe)
-  and [MiaAI-Lab/DeepSeek-v4-Flash-DSpark-2x-DGX-Spark](https://github.com/MiaAI-Lab/DeepSeek-v4-Flash-DSpark-2x-DGX-Spark).
 
 ## License
 
